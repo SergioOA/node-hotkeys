@@ -1,30 +1,30 @@
-## ❔ Para qué sirve este programa?
+## ❔ ¿Para qué sirve este programa?
 
 Con este programa puedes reemplazar palabras de forma automática mientras escribes.
 Esto puede ser muy útil en diferentes situaciones:
 
-- **Usar teclados estadounidenses**
+- **Usar teclados estadounidenses**&nbsp;
 Si quieres escribir en español usando un teclado de estados unidos tendrás problemas para
 escribir acentos, puedes usar este programa para poder escribir los acentos de forma cómoda.
 En mi caso, utilizo esta configuración para escribir la letra **á**.
-'''bash
+```
 {
     "trigger": "'a",
     "value": "á"
 }
-'''
+```
 
-- **Guardar contraseñas**
+- **Guardar contraseñas**&nbsp;
 Si tienes que memorizar y escribir contraseñas largas puedes crear un hotkey como **mi contraseña**.
 
-- **Escribir tu email**
+- **Escribir tu email**&nbsp;
 Puedes bindear la palabra **mail** para que se escriba tu email como se ve en el siguiente ejemplo:
-'''bash
+```
 {
     "trigger": "mail",
     "value": "este-es-un-email-largo@gmail.com"
 }
-'''
+```
 
 ## ⚙️ Compatibilidad
 1. Windows 10
@@ -35,13 +35,13 @@ Puedes bindear la palabra **mail** para que se escriba tu email como se ve en el
 
 1. Clonar el repositorio
 
-```bash
+```
 git clone https://github.com/SergioOA/node-hotkeys.git
 ```
 
 2. Entrar a la carpeta que se ha creado
 
-```bash
+```
 cd node-hotkeys
 ```
 

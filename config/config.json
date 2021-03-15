@@ -1,0 +1,50 @@
+[
+    {
+        "trigger": "'a",
+        "value": "á"
+    },
+    {
+        "trigger": "'e",
+        "value": "é"
+    },
+    {
+        "trigger": "'i",
+        "value": "í"
+    },
+    {
+        "trigger": "'o",
+        "value": "ó"
+    },
+    {
+        "trigger": "'u",
+        "value": "ú"
+    },
+    {
+        "trigger": "'A",
+        "value": "Á"
+    },
+    {
+        "trigger": "'E",
+        "value": "É"
+    },
+    {
+        "trigger": "'I",
+        "value": "Í"
+    },
+    {
+        "trigger": "'O",
+        "value": "Ó"
+    },
+    {
+        "trigger": "'U",
+        "value": "Ú"
+    },
+    {
+        "trigger": "'n",
+        "value": "ñ"
+    },
+    {
+        "trigger": "'N",
+        "value": "Ñ"
+    }
+]

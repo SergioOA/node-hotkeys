@@ -13,7 +13,9 @@ class Hotkey {
     // Este método recibe un string con la información de lo que ha escrito el
     // usuario y ejecuta el hotkey si se cumplen las condiciones.
     evaluateString(userText) {
-        if(userText.endsWith(this.hotkeyData.trigger)) {
+        let isException = 'exception' in this.hotkeyData && userText.endsWith(this.hotkeyData.exception);
+        let shouldTrigger = userText.endsWith(this.hotkeyData.trigger);
+        if(shouldTrigger && !isException) {
             this.execute();
             return true;
         }

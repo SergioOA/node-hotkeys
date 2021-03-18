@@ -13,8 +13,11 @@ class Hotkey {
     // Este método recibe un string con la información de lo que ha escrito el
     // usuario y ejecuta el hotkey si se cumplen las condiciones.
     evaluateString(userText) {
-        if(userText.endsWith(this.hotkeyData.trigger))
+        if(userText.endsWith(this.hotkeyData.trigger)) {
             this.execute();
+            return true;
+        }
+        return false;
     }
 
     // Se utiliza el clipboard para escribir el texto necesario, no uso 
@@ -33,6 +36,11 @@ class Hotkey {
         clipboardy.writeSync(value);
         robot.keyTap('v', 'control');
         clipboardy.writeSync(clipboardOld);
+    }
+
+    // Regresa la longitud del trigger
+    triggerLength() {
+        return this.hotkeyData.trigger.length
     }
 
 }

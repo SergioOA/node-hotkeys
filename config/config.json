@@ -46,5 +46,21 @@
     {
         "trigger": "'N",
         "value": "Ñ"
+    },
+    {
+        "trigger": "22pas",
+        "value": "ugiat2smards4K"
+    },
+    {
+        "trigger": "222pas",
+        "value": "ugiat2flashback4K"
+    },
+    {
+        "trigger": "2222pas",
+        "value": "ugiat2smards4K"
+    },
+    {
+        "trigger": "hmail",
+        "value": "sergio.ornaque.armengol@gmail.com"
     }
 ]

@@ -1,0 +1,62 @@
+[
+    {
+        "trigger": "'a",
+        "exception": "('a",
+        "value": "á"
+    },
+    {
+        "trigger": "'e",
+        "exception": "('e",
+        "value": "é"
+    },
+    {
+        "trigger": "'i",
+        "exception": "('i",
+        "value": "í"
+    },
+    {
+        "trigger": "'o",
+        "exception": "('o",
+        "value": "ó"
+    },
+    {
+        "trigger": "'u",
+        "exception": "('u",
+        "value": "ú"
+    },
+    {
+        "trigger": "'A",
+        "exception": "('A",
+        "value": "Á"
+    },
+    {
+        "trigger": "'E",
+        "exception": "('E",
+        "value": "É"
+    },
+    {
+        "trigger": "'I",
+        "exception": "('I",
+        "value": "Í"
+    },
+    {
+        "trigger": "'O",
+        "exception": "('O",
+        "value": "Ó"
+    },
+    {
+        "trigger": "'U",
+        "exception": "('U",
+        "value": "Ú"
+    },
+    {
+        "trigger": "'n",
+        "exception": "('n",
+        "value": "ñ"
+    },
+    {
+        "trigger": "'N",
+        "exception": "('N",
+        "value": "Ñ"
+    }
+]
